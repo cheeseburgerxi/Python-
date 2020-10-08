@@ -1,0 +1,39 @@
+import turtle as f
+f.setup(600,600,200,200)
+f.penup()
+f.seth(135)
+f.pendown()
+f.pensize(5)
+f.pencolor("black")
+for i in range(8):
+    f.fd(150)
+    f.goto(0,0)
+    f.left(45)
+
+#第一象限
+f.penup()
+f.goto(0,150)
+f.pendown()
+f.seth(0)
+f.circle(-150,45)
+
+#第四象限
+f.penup()
+f.goto(150,0)
+f.seth(-90)
+f.pendown()
+f.circle(-150,45)
+
+#第三象限
+f.penup()
+f.goto(0,-150)
+f.seth(-180)
+f.pendown()
+f.circle(-150,45)
+
+#第二象限
+f.penup()
+f.goto(-150,0)
+f.seth(90)
+f.pendown()
+f.circle(-150,45)
