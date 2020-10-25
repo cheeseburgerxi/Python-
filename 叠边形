@@ -1,0 +1,13 @@
+import turtle as d
+d.setup(600,600,200,200)
+d.penup()
+d.fd(-100)
+d.seth(-90)
+d.fd(100)
+d.seth(0)
+d.pendown()
+d.pensize(8)
+for i in range(9):
+    d.fd(100)
+    d.left(80)
+d.done()
