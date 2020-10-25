@@ -1,0 +1,14 @@
+import turtle as l
+l.setup(640,350,200,200)
+l.penup()
+l.fd(-50)
+l.right(90)
+l.fd(100)
+l.left(90)
+l.pendown()
+l.pensize(10)
+l.pencolor("purple")
+for i in range(6):
+    l.fd(50)
+    l.left(60)
+l.done()
